@@ -26,6 +26,11 @@ int Divide(int number1, int number2)
     return number1 / number2;
 }
 
+int Modulo(int number1, int number2)
+{
+    return number1 % number2;
+}
+
 int main()
 {
     cout << "--- Basic Calculations ---" << endl;
